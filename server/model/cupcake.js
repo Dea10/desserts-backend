@@ -3,8 +3,6 @@ const uniqueValidator = require('mongoose-unique-validator');
 
 const Schema = mongoose.Schema;
 
-
-
 let cupcakeSchema = new Schema({
     name: {
         type: String,
