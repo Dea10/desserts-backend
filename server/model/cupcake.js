@@ -22,6 +22,10 @@ let cupcakeSchema = new Schema({
     stock: {
         type: Number,
         default: 0
+    },
+    status: {
+        type: Boolean,
+        default: true
     }
 });
 
