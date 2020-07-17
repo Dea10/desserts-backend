@@ -13,7 +13,8 @@ let cupcakeSchema = new Schema({
         type: String
     },
     img: {
-        type: Array
+        type: Array,
+        default: []
     },
     price: {
         type: Number,

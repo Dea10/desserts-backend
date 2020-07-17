@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 // parse application/json
 app.use(bodyParser.json())
 
-app.use(require('./routes/user'))
+app.use(require('./routes/cupcake'))
 
 app.listen(process.env.PORT, () => {
     console.log(`Listening on port: ${process.env.PORT}`)

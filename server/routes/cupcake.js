@@ -1,5 +1,5 @@
 const express = require('express');
-const _ = require('underscore');
+// const _ = require('underscore');
 const Cupcake = require('../model/cupcake');
 const app = express();
 
@@ -26,7 +26,7 @@ app.get('/cupcake', function (req, res) {
                 
                 res.json({
                     ok: true,
-                    users: cupcakes,
+                    cupcakes: cupcakes,
                     count
                 })
             })
